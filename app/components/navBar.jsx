@@ -6,7 +6,7 @@ export default function Navbar() {
     const styleItem = 'bg-white h-[60px] w-[60px] rounded-full flex  cursor-pointer mx-2'
 
   return (
-    <nav className=" bg-[#073389] text-white w-[100%] h-[15vh] flex items-center px-4 ">
+    <nav className=" bg-[#073389] text-white w-[100%] 2xl:h-[10vh] h-[15vh] flex items-center px-4 ">
         <Link href={'/'}>
             <h1 id="store-name" className=" text-4xl flex-none">
                 NAME STORE

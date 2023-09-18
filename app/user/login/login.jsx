@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function LoginUser() {
   return (
-    <div className=" bg-white w-[100%] lg:w-[40%] mx-auto h-[85vh]">
+    <div className=" bg-white w-[100%] lg:w-[40%] mx-auto h-[100%]">
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-10 lg:px-8">
         {/* Logo y titulo */}
         <div className="sm:mx-auto sm:w-ful sm:max-w-sm">
@@ -24,7 +24,7 @@ export default function LoginUser() {
                 htmlFor="email"
                 className="block text-sm 2xl:text-xl font-medium leading-6 text-gray-900"
               >
-                Email
+                Correo
               </label>
               <div className="mt-2">
                 <input
