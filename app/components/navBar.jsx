@@ -13,10 +13,10 @@ export default function Navbar() {
             </h1>
         </Link>
       {/* Buscador de productos */}
-      <div className="grow flex justify-start">
-        <div className=" bg-[#D9D9D9] rounded-[32px] w-[300px] ml-10 flex items-center">
+      <section className="grow  justify-start hidden md:block">
+        <div className=" bg-[#D9D9D9] rounded-full w-[35%] ml-10 flex items-center">
           <input
-            className="p-2 bg-[#D9D9D9] border-none rounded-[32px] w-[90%]"
+            className="p-2 bg-[#D9D9D9] border-none  rounded-full w-[90%]"
             type="text"
             name=""
             id=""
@@ -24,9 +24,16 @@ export default function Navbar() {
           />
           <BsSearch className=" text-black mx-auto" />
         </div>
-      </div>
+      </section>
+      {/* Buscador mobile */}
+     
       {/* Lado derecho navBar */}
       <div className="flex">
+      <section>
+        <div className="bg-white rounded-full p-4 block mx-2 md:hidden">
+          <BsSearch className=" text-black mx-auto" size={25} />
+        </div>
+      </section>
         <div className={`${styleItem}`}>
             <BsCart2 className="text-black m-auto" size={40}/>
         </div>
