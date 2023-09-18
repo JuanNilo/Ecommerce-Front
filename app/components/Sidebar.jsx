@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { BiStore, BiSolidCategoryAlt, BiSolidOffer } from "react-icons/bi";
-import CategoriasSelectorMenu from "./Categorias-Selector";
-import SucursalSelctorMenu from "./Sucursal-Selector";
+import CategoriasSelectorMenu from "./componentes-home/Categorias-Selector";
+import SucursalSelctorMenu from "./componentes-home/Sucursal-Selector";
 
 export default function SideBar(){
     const estilo = "bg-[#D9D9D9] rounded-[25px] w-[85%] font-bold my-4 p-2 mx-auto shadow shadow-gray-500  cursor-pointer hover:bg-[#E8E8E8]";

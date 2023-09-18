@@ -6,7 +6,7 @@ export default function Navbar() {
     const styleItem = 'bg-white h-[60px] w-[60px] rounded-full flex  cursor-pointer mx-2'
 
   return (
-    <nav className=" bg-[#073389] text-white w-[100%] h-[100px] flex items-center px-4 ">
+    <nav className=" bg-[#073389] text-white w-[100%] h-[15vh] flex items-center px-4 ">
         <Link href={'/'}>
             <h1 id="store-name" className=" text-4xl flex-none">
                 NAME STORE
@@ -32,10 +32,11 @@ export default function Navbar() {
         </div>
         <div>
           {/* <Image src="/images/icon.svg" alt="User icon" className="mx-auto" width={50} height={50}/>  */}
-          <Link href={'/user'} className={` ${styleItem}`}>
+          <Link href={'/user/login'} className={` ${styleItem}`}>
             <AiOutlineUser className="text-black m-auto" size={45} />
           </Link>
         </div>
+        
       </div>
     </nav>
   );

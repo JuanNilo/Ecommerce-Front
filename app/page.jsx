@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SideBar from "./components/componentes-home/Sidebar";
+import SideBar from "./components/Sidebar";
 import Slider from "./components/componentes-home/Slider";
 import Flayer from "./components/componentes-home/Flayer";
 
