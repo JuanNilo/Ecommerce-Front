@@ -2,6 +2,7 @@ import Image from "next/image";
 import SideBar from "./components/Sidebar";
 import Slider from "./components/componentes-home/Slider";
 import Flayer from "./components/componentes-home/Flayer";
+import Products from "./components/componentes-home/Products";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
           <Slider/>
           <Flayer/>
         </div>
-        <div className="bg-red-900 h-[50vh]">Rojo</div>
+        <div className=" h-[50vh]">
+          <Products/>
+        </div>
       </div>
       
     </div>
